@@ -1,0 +1,28 @@
+//Footer
+.footer {
+    background-color: $blue;
+    color: $white;
+    padding: 30px;
+}
+
+.footer__logo {
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.footer__container {
+    padding: 30px;
+    background-color: $backgroundcolor;  
+}
+
+.gravferdsgruppen {
+    width: 100%;
+    margin: 0 auto;
+    background-color: $white;
+    padding: 40px; 
+
+    &__icons {
+      margin-left: 15%;
+      
+    }
+}

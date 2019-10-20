@@ -1,0 +1,87 @@
+body {
+    font-family: $bodyFont;
+    font-weight: lighter;
+    font-size: 22px;
+    background-color: $backgroundcolor;
+    color: $textcolor;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: $headerFont;
+}
+
+section {
+    padding: 20px;
+}
+
+.empty {
+    padding-bottom: 450px;
+}
+
+.mainBlocks {
+    margin-bottom: 50px;
+
+        &__image {
+            width: 350px;
+            height: 350px;
+        }
+
+        &__header {
+            color: $buttoncolor;
+        }
+        
+        &__button {
+            background-color: $buttoncolor;
+            color: $white;
+            border: none;
+            font-family: $headerFont;
+            padding: 5px 20px 5px 20px;
+
+            &:hover {
+                background-color: $black;
+            }
+        }   
+}
+
+.gravferdsgruppen {
+    width: 100%;
+    margin: 0 auto;
+    background-color: $white;
+    padding: 40px; 
+
+    &__icons {
+      margin-left: 15%;  
+    }
+    &__logo {
+        max-width: 200px;
+        max-height: 70px;
+    }
+}
+
+.btn {
+    background-color: $buttoncolor;
+    color: $white;
+    border: none;
+    border-radius: 0;
+    font-family: $headerFont;
+    font-size: 18px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+
+    &:hover {
+    background-color: $black;
+    color: $white;
+    }
+}
+
+.gallery {
+    width: 800px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+

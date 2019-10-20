@@ -1,0 +1,115 @@
+// First Navbar
+.topNavbar {
+    border: none;
+    border-radius: 0;
+    margin: 0;
+
+    .topNavbar__container {
+        margin-right: 70px;
+    }
+
+    .topNav {
+        .topNav__item {
+            .topNav__link {
+                color: $buttoncolor;
+
+                &:hover {
+                    text-decoration: underline;
+                    text-decoration-color: $buttoncolor;
+                }
+                &:active {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+// Second Navbar
+.secondNavbar {
+    border: none;
+    border-radius: 0;
+    margin: 0;
+
+    .secondNavbar__brand {
+        list-style: none;
+
+        .secondNavbar__logo {
+            height: 70px;
+            margin: -20px;    
+        }
+    }
+
+    .secondNavbar__container {
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+
+    .secondNav {
+        .secondNav__item {
+           
+            .secondNav__link {
+                color: $buttoncolor;
+                font-family: $headerFont;
+                margin-top: 20px;
+
+                &:hover {
+                    text-decoration: underline;
+                    text-decoration-color: $buttoncolor;
+                }
+                &:active {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    
+}
+
+//Header
+.header {
+    position: relative;
+    margin-bottom: 50px;
+
+    &__image {
+        max-height: 600px;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__icon {
+        position: absolute;
+        top: 10%;
+        right: 10%;
+    }
+
+    &__p {
+        font-family: $headerFont;
+    }
+
+    &__textblock {
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        background-color: $blue;
+        color: white;
+        padding: 30px 20px 30px 20px;
+        
+    }
+
+    &__button {
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        width: 263px;
+        background-color: $blue;
+        color: white;
+        font-family: $headerFont;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+    }
+}
